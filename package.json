@@ -1,7 +1,7 @@
 {
   "name": "MOMOO-BE",
   "version": "0.0.1",
-  "main": "src/app.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production PORT=80 pm2 start src/server.js -i 0",
     "dev": "nodemon src/server",
