@@ -33,3 +33,5 @@ app.use('/feed', feedRouter);
 // res.json(): 제이슨(Json) 객체로 응답
 // res.render(): html 변환 템플릿을 렌더링(ejs)
 // res.sendfile(): 파일 다운로드
+
+module.exports = app;
