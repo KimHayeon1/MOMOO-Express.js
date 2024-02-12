@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "build": "babel src --out-dir build"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -12,6 +13,8 @@
     "firebase": "^10.8.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
     "nodemon": "^3.0.3"
   }
 }
