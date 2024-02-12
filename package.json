@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "src/server.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production PORT=80 pm2 start src/server.js -i 0",
+    "start": "cross-env NODE_ENV=production PORT=443 pm2 start src/server.js -i 0",
     "dev": "nodemon src/server",
     "build": "babel src --out-dir build"
   },
