@@ -5,8 +5,8 @@ const path = require('path');
 const cors = require('cors');
 
 // dotenv.config();
-const indexRouter = require('./routes');
-const feedRouter = require('./routes/feed');
+const indexRouter = require('./routes/index.js');
+const feedRouter = require('./routes/feed.js');
 
 app.set('port', process.env.PORT || 3000);
 
