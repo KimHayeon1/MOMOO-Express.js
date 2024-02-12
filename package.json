@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "src/server.js",
   "scripts": {
-    "start": "pm2 start src/server.js",
+    "start": "pm2 start server.js -i 0",
     "dev": "nodemon src/server",
     "build": "babel src --out-dir build"
   },
@@ -18,9 +18,7 @@
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.23.9",
     "@babel/node": "^7.23.9",
-    "@babel/plugin-transform-runtime": "^7.23.9",
-    "@babel/preset-env": "^7.23.9",
-    "nodemon": "^3.0.3"
+    "@babel/preset-env": "^7.23.9"
   },
   "babel": {
     "presets": [
