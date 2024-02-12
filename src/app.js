@@ -8,7 +8,7 @@ const cors = require('cors');
 const indexRouter = require('./routes/index.js');
 const feedRouter = require('./routes/feed.js');
 
-app.set('port', process.env.PORT || 3000);
+// app.set('port', process.env.PORT || 3000);
 
 app.use(
   cors({
@@ -20,9 +20,9 @@ app.use(
 app.use('/', indexRouter);
 app.use('/feed', feedRouter);
 
-app.listen(app.get('port'), () => {
-  console.log(app.get('port'), '포트 대기 중');
-});
+// app.listen(app.get('port'), () => {
+//   console.log(app.get('port'), '포트 대기 중');
+// });
 
 // GET(조회): router.get()
 // POST(저장): router.post()
