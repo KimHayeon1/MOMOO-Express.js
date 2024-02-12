@@ -8,7 +8,7 @@ const cors = require('cors');
 const indexRouter = require('./routes/index.js');
 const feedRouter = require('./routes/feed.js');
 
-// app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3000);
 
 app.use(
   cors({
